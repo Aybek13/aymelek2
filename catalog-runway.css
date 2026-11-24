@@ -1,0 +1,183 @@
+/* Shared runway palette for the homepage and catalog. */
+html:has(body.aymelek-catalog) {
+  background:
+    radial-gradient(1px 1px at 9% 19%, #ffdaee 78%, transparent),
+    radial-gradient(1px 1px at 72% 34%, #fbc4e3 78%, transparent),
+    radial-gradient(1px 1px at 51% 78%, #fff3fa 78%, transparent),
+    radial-gradient(1px 1px at 92% 89%, #d791bc 78%, transparent),
+    radial-gradient(ellipse at 73% 12%, #3b1d36, transparent 58%),
+    #100b14;
+  background-size: 193px 197px, 211px 241px, 317px 307px, 283px 261px, auto, auto;
+  background-attachment: fixed;
+}
+body.aymelek-catalog {
+  --midnight: #100b14;
+  --pink: #ffc2df;
+  --jade: #ffd4ea;
+  --ink: #fff2fa;
+  --mut: #e6c6d9;
+  --pnl: #211322;
+  --ln: #704360;
+  color-scheme: dark;
+}
+body.aymelek-catalog :is(.ann, .hdr, .cats, .drawer nav, footer) {
+  background: #180f1b;
+}
+.aymelek-catalog .pw > :is(.pt, .ps) { color: #ffd4ea; }
+.aymelek-catalog .pt { font-size: clamp(2rem, 5vw, 4.1rem); }
+.aymelek-catalog :is(.pc, .info) {
+  background: linear-gradient(150deg, #321d32, #1b111e);
+  border: 1px solid var(--ln);
+  border-radius: 1rem;
+  min-width: 0;
+}
+.aymelek-catalog .pc { padding: clamp(.45rem, 1vw, .8rem); }
+.aymelek-catalog .pc :is(.pn, .pp, .sz) { overflow-wrap: anywhere; }
+.aymelek-catalog .info { padding: clamp(1rem, 3vw, 2rem); }
+.aymelek-catalog :is(.pi, .mn, .th button) {
+  background: #fae8f3;
+  border-radius: .7rem;
+  overflow: hidden;
+}
+.aymelek-catalog .pc .wb { background: #321d32; }
+.aymelek-catalog :is(.bar select, .fb, .fl) { background: #211322; }
+.aymelek-catalog .fl { border: 1px solid var(--ln); border-radius: .85rem; padding: 1rem; }
+.aymelek-catalog :focus-visible, .aymelek-runway-home .hero :focus-visible {
+  outline: 2px solid #ffb1dc;
+  outline-offset: 3px;
+}
+body.aymelek-runway-home .hero .txt {
+  background: linear-gradient(110deg, #542b4c, transparent 92%) !important;
+}
+.aymelek-runway-home .hero :is(h1, h1 em, .sub, .eyebrow, .perks) { color: #fff2fa; }
+.aymelek-runway-home .home-runway .caption h2 {
+  font: clamp(1.8rem, 4.6vw, 4.5rem)/.96 Georgia, serif;
+  margin: .55rem 0 0;
+  max-width: 8ch;
+  color: #fff2fa;
+}
+.aymelek-runway-home #kategoriler { scroll-margin-top: 9rem; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .aymelek-catalog .pc { transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease; }
+  .aymelek-catalog .pc:hover {
+    transform: translateY(-4px);
+    border-color: #d68fb9;
+    box-shadow: 0 14px 30px #09050a80;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .aymelek-catalog .pc .pi img { transition: none; transform: none; }
+}
+
+@media (max-width: 1000px) {
+  body.aymelek-catalog .cats {
+    display: block;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    border-top-color: var(--ln);
+  }
+  body.aymelek-catalog .cats .wrap { min-width: max-content; padding-inline: 12px; }
+  body.aymelek-catalog .cats ul {
+    width: max-content;
+    justify-content: flex-start;
+    min-height: 44px;
+    height: auto;
+    gap: 15px;
+  }
+  body.aymelek-catalog .cats a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    white-space: nowrap;
+    padding: 0 3px;
+    font-size: 12px;
+    letter-spacing: .06em;
+  }
+  body.aymelek-catalog .cats a[aria-current=true] { color: #ffc2df; }
+  body.aymelek-runway-home .hero .txt {
+    padding: 14px 16px 16px;
+  }
+  body.aymelek-runway-home .hero .eyebrow { margin-bottom: 5px; }
+  body.aymelek-runway-home .hero h1 { font-size: clamp(26px, 7vw, 42px); }
+  body.aymelek-runway-home .hero h1 br { display: none; }
+  body.aymelek-runway-home .hero .sub { font-size: 14px; margin: 6px 0 11px; }
+  body.aymelek-runway-home .hero .btns { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+  body.aymelek-runway-home .hero .btns .btn {
+    width: 100%;
+    min-height: 44px;
+    height: auto;
+    padding: 6px 9px;
+    font-size: 11px;
+    letter-spacing: .04em;
+    text-align: center;
+  }
+  body.aymelek-runway-home .hero .perks { margin-top: 11px; gap: 4px 10px; font-size: 11px; }
+  body.aymelek-runway-home .hero-location { align-self: flex-start; margin-top: 9px; justify-items: start; }
+  body.aymelek-runway-home .home-runway { scroll-margin-top: 122px; }
+}
+
+.aymelek-runway-home .home-location {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1.3fr);
+  align-items: center;
+  gap: 1rem;
+  width: min(calc(100% - 32px), 680px);
+  margin: .75rem auto 1.5rem;
+  padding: 1rem;
+  border: 1px solid #704360;
+  border-radius: .8rem;
+  background: #211322aa;
+}
+.aymelek-runway-home .home-location h2 { margin: 0 0 .4rem; font: 1.15rem Georgia,serif; color: #fff2fa; }
+.aymelek-runway-home .home-location a { color: #ffd4ea; text-decoration: underline; }
+.aymelek-runway-home .home-location iframe { width: 100%; height: 108px; display: block; border: 0; border-radius: .5rem; opacity: .58; }
+.aymelek-runway-home .home-location iframe:is(:hover,:focus) { opacity: .9; }
+@media (max-width: 560px) {
+  .aymelek-runway-home .home-location { grid-template-columns: 1fr; gap: .65rem; }
+  .aymelek-runway-home .home-location iframe { height: 82px; }
+}
+
+.home-runway .rail.rail-shopping { grid-template-rows: auto minmax(0, 1fr) auto; }
+.home-runway .rail [hidden] { display: none !important; }
+.home-runway .runway-cart { display: grid; gap: .55rem; }
+.home-runway .runway-item { display: grid; gap: .2rem; }
+.home-runway .runway-item span { color: #ffd4ea; font-size: .9rem; }
+.home-runway .runway-cart-actions { display: flex; flex-wrap: wrap; gap: .45rem; }
+.home-runway .runway-cart-actions > * {
+  display: inline-flex; flex: 1 1 auto; min-height: 44px; align-items: center; justify-content: center;
+  border: 1px solid #936281; border-radius: .55rem; padding: .45rem .55rem;
+  color: #fff2fa; font: inherit; text-align: center;
+}
+.home-runway .runway-add,
+.home-runway .runway-add[hidden] + .runway-product { background: #ffc2df; color: #291425; }
+.home-runway .runway-cart-message { margin: 0; color: #b6f4cb; font-size: .9rem; }
+.home-runway .runway-cart-message:empty { display: none; }
+#satin-al { scroll-margin-top: 9rem; }
+@media (max-width: 720px) {
+  .home-runway .rail.rail-shopping { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 8rem auto; }
+}
+.purchase-star {
+  position: fixed; z-index: 10000; pointer-events: none; color: #ffd3ee;
+  text-shadow: 0 0 7px #ff72c5; line-height: 1;
+}
+
+/* AYMELEK premium motion refinement: accessible depth and shopping controls */
+.home-runway .stage { perspective: 1100px; box-shadow: inset 0 0 80px rgba(12,5,19,.38), 0 22px 65px rgba(0,0,0,.25); }
+.home-runway .model { backface-visibility: hidden; will-change: transform; filter: drop-shadow(0 16px 18px rgba(0,0,0,.28)); }
+.home-runway .rail { box-shadow: 0 14px 42px rgba(0,0,0,.18); }
+.home-runway .runway-add { min-height: 48px; font-weight: 600; position: relative; z-index: 2; }
+.home-runway .controls button:focus-visible, .home-runway .runway-add:focus-visible { outline: 3px solid #ffe2f3; outline-offset: 3px; }
+@media (hover:hover) and (prefers-reduced-motion:no-preference) {
+  .home-runway .model { transition: filter .3s ease; }
+  .home-runway .model:hover { filter: drop-shadow(0 22px 25px rgba(0,0,0,.48)) brightness(1.09); }
+  .home-runway .runway-add { transition: transform .2s ease, box-shadow .2s ease; }
+  .home-runway .runway-add:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,194,223,.28); }
+}
+@media (max-width:720px) {
+  .home-runway .stage { min-height: 26rem; }
+  .home-runway .controls { bottom: .65rem; left: .65rem; }
+  .home-runway .runway-add { width: 100%; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .home-runway .model, .home-runway .runway-add { transition: none !important; animation: none !important; }
+}
