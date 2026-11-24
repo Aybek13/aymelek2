@@ -1,0 +1,168 @@
+/* AYMELEK — Midnight Abyss, Baby Pink ve Aqua Jade */
+:root{color-scheme:dark;--midnight:#171F44;--pink:#FE81D1;--jade:#74FFED;--ink:#F5F7FF;--mut:#C0CAE5;--pnl:#202b53;--ln:rgba(116,255,237,.24);--black:var(--midnight);--soft:#1c274e;--lpink:#263258;--gray:var(--mut);--rose:var(--pink)}
+html{background:var(--midnight)}body{background:transparent!important;color:var(--ink)}
+h1,h2,h3,h4{color:var(--ink)}.fl h4{color:var(--pink)}
+.ann{background:var(--pink);color:var(--midnight)}
+.hdr{background:rgba(23,31,68,.76);border-bottom:1px solid var(--ln)}.hdr.stuck{box-shadow:0 6px 28px rgba(0,0,0,.55)}
+.cats{border-top-color:var(--ln)}.cats a,.ib,.drawer nav a,.drawer .x{color:var(--ink)}.cats .sale{color:var(--pink)}.ib:hover{color:var(--pink)}
+.search{background:rgba(255,255,255,.06);border-color:var(--ln)}.search input{color:var(--ink)}.search input::placeholder{color:#a6b1d1}.search button{color:var(--ink)}
+.msb{background:rgba(23,31,68,.96);border-top-color:var(--ln)}.cnt{background:var(--pink);color:var(--midnight)}
+.drawer nav{background:#1b244a}.drawer nav a{border-bottom-color:var(--ln)}
+.hero,.hero .txt{background:transparent!important}.hero .txt{background:linear-gradient(90deg,rgba(23,31,68,.5),rgba(23,31,68,0))!important}
+section.s,.pw{background:transparent}.d3{display:none}
+.sh p,.ps,.pp s,.sz,.stk{color:var(--mut)}.ps a{color:var(--pink)}
+.cc{background:rgba(116,255,237,.07);border:1px solid var(--ln);color:var(--ink)}.cc span{border-bottom-color:var(--pink)}.cc:hover{background:rgba(116,255,237,.2)}
+.pv{background:rgba(116,255,237,.05)}.pv p,.mp address{color:var(--mut)}.mp iframe{filter:invert(.92) hue-rotate(180deg) saturate(.75) brightness(.9)}
+.btn:not(.wa):not(.p){background:transparent;color:var(--pink)!important;border-color:var(--pink)!important}.btn:not(.wa):not(.p):hover{background:var(--pink);color:var(--midnight)!important}
+.btn.p,.add,.pv .btn{background:var(--pink)!important;color:var(--midnight)!important;border-color:var(--pink)!important}.btn.p:hover,.add:hover,.pv .btn:hover{background:#fff!important;border-color:#fff!important}
+.btn.wa{background:#25D366!important;border-color:#25D366!important;color:#fff!important}
+input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea,.bar select,.fb{background:rgba(255,255,255,.06);color:var(--ink);border-color:var(--ln)}
+select option{background:var(--midnight);color:#fff}.ws{background:var(--midnight)!important;color:var(--ink)!important;border-color:var(--ln)!important}
+.chip span{background:rgba(255,255,255,.05);border-color:var(--ln);color:var(--ink)}.chip input:checked+span{background:var(--pink);color:var(--midnight);border-color:var(--pink)}.chip input:checked+span.dot{outline:2px solid var(--pink);outline-offset:2px}
+.pn,.pp,.info,.fl{color:var(--ink)}.pp b.r{color:var(--jade)}
+.pi,.mn,.th button{background:#efeaf0}
+.pi img[src$=".jpg"],.mn img[src$=".jpg"],.th img[src$=".jpg"],.ln img[src$=".jpg"]{mix-blend-mode:normal}
+.tag{background:var(--midnight);color:var(--pink)}.off{background:var(--midnight);color:var(--jade)}.wb{background:rgba(23,31,68,.78);color:var(--ink)}.wb.on{color:var(--pink)}.wb.on svg{fill:var(--pink);stroke:var(--pink)}
+.dm{background:rgba(116,255,237,.12);color:var(--ink)}.empty,.empty p{color:var(--mut)}
+details{border-top-color:var(--ln)}details p{color:var(--mut)}.qty{border-color:var(--ln)}.qty button{color:var(--ink)}
+.stk.lo{color:var(--jade)}.msg{color:#ff9a8f}
+.ln{border-bottom-color:var(--ln)}.ln small,.ln .rm{color:var(--mut)}.ln s{color:var(--mut)!important}
+.sum{background:var(--pnl);border-color:var(--ln)}.sum .t{border-top-color:var(--ln)}.nt{background:rgba(255,255,255,.05);color:var(--mut)}
+.doc p,.doc li{color:var(--mut)}.doc td,.doc th{border-color:var(--ln)}.doc th{background:rgba(116,255,237,.12)}.doc .ph{background:rgba(116,255,237,.2);color:var(--pink)}
+footer{background:rgba(23,31,68,.74);border-top:1px solid var(--ln)}
+.fa a:hover{color:var(--pink)}
+body[data-page=admin]{background:var(--midnight)!important}.ah{background:#1b244a;border-bottom:1px solid var(--ln)}.ac .card,.kp div{background:var(--pnl);border-color:var(--ln);color:var(--ink)}.kp span,.fg label{color:var(--mut)}.ck label{color:var(--ink)}
+.tb th,.tb td{border-bottom-color:var(--ln)}.ab{background:rgba(255,255,255,.06);color:var(--ink);border-color:var(--ln)}.ab.pr{background:var(--pink);color:var(--midnight);border-color:var(--pink)}.ab.d,.low{color:#ff9a8f}.warn{background:rgba(255,193,7,.12);border-color:rgba(255,193,7,.35);color:var(--ink)}
+.search input,.msb input{background:transparent!important;border:0!important}
+.btn.add:not(.wa):not(.p),.pv .btn:not(.wa):not(.p){background:var(--pink)!important;color:var(--midnight)!important;border-color:var(--pink)!important}
+.btn.add:not(.wa):not(.p):hover,.pv .btn:not(.wa):not(.p):hover{background:#fff!important;border-color:#fff!important}
+.ln>a{background:#efeaf0;align-self:start;display:block}
+.th button[data-v=d]{background:var(--midnight);color:var(--pink);border:1px solid var(--pink)}
+/* 3D logo arka plani, kadin gorseli ve belirme efektleri */
+.hero .pic{mix-blend-mode:screen;transform-origin:50% 60%;will-change:transform}
+.hero .pic img{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 34%);mask-image:linear-gradient(90deg,transparent 0,#000 34%)}
+.hero .pic::after{content:"";position:absolute;left:0;right:0;bottom:0;height:28%;background:linear-gradient(transparent,var(--midnight))}
+@media(max-width:1000px){.hero .pic{mix-blend-mode:normal}.hero .pic img{-webkit-mask-image:linear-gradient(180deg,#000 68%,transparent);mask-image:linear-gradient(180deg,#000 68%,transparent)}.hero .pic::after{display:none}}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .85s cubic-bezier(.2,.7,.2,1),transform .85s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+
+.hero .txt{background:linear-gradient(125deg,rgba(23,31,68,.12),rgba(23,31,68,.72) 60%),radial-gradient(ellipse at 82% 80%,rgba(116,255,237,.19),transparent 68%)!important}
+.hero .pic{mix-blend-mode:normal}
+.hero .pic img{-webkit-mask-image:linear-gradient(90deg,#000 70%,transparent);mask-image:linear-gradient(90deg,#000 70%,transparent)}
+.eyebrow,.cats a:hover,.ib:hover,.fa a:hover{color:var(--jade)}
+.btn.o:not(.wa):not(.p),#bvnxt.btn:not(.wa):not(.p){background:transparent!important;color:var(--jade)!important;border-color:var(--jade)!important}
+.btn.o:not(.wa):not(.p):hover,#bvnxt.btn:not(.wa):not(.p):hover{background:var(--jade)!important;color:var(--midnight)!important}
+.bottle-card[aria-pressed=true]{border-color:var(--jade);background:rgba(116,255,237,.07)}
+.ah .on{border-color:var(--jade)}
+:focus-visible{outline:2px solid var(--jade);outline-offset:3px}
+input[type=range],input[type=checkbox],input[type=radio]{accent-color:var(--jade)}
+@media(max-width:1000px){.hero .pic img{-webkit-mask-image:linear-gradient(180deg,#000 76%,transparent);mask-image:linear-gradient(180deg,#000 76%,transparent)}}
+
+/* Pink storefront surfaces, midnight navigation, jade showcase. */
+.ann{background:var(--pink);color:var(--midnight)}
+.hero .txt{background:rgba(254,129,209,.78)!important;color:var(--midnight)}
+.hero h1,.hero h1 em,.hero .sub,.hero .eyebrow,.hero .perks{color:var(--midnight)}
+.hero .perks span::before{color:var(--midnight)}
+.hero .btn.p{background:var(--midnight)!important;color:var(--pink)!important;border-color:var(--midnight)!important}
+.hero .btn.p:hover{background:var(--jade)!important;color:var(--midnight)!important}
+.hero .btn.o:not(.wa):not(.p){color:var(--midnight)!important;border-color:var(--midnight)!important}
+.hero .btn.o:not(.wa):not(.p):hover{background:var(--jade)!important;color:var(--midnight)!important}
+section.category-section.s{background:rgba(254,129,209,.76);color:var(--midnight)}
+.category-section .sh h2,.category-section .sh p{color:var(--midnight)}
+.category-section .cc{border-color:var(--midnight)}
+section.pv.s{background:rgba(116,255,237,.73);color:var(--midnight)}
+.pv h2,.pv p{color:var(--midnight)}
+.pv .bottle-card{color:var(--midnight)}
+.pv .bottle-card[aria-pressed=true]{border-color:var(--midnight);background:rgba(23,31,68,.08)}
+.pv #bvnxt.btn:not(.wa):not(.p){color:var(--midnight)!important;border-color:var(--midnight)!important}
+.pv #bvnxt.btn:not(.wa):not(.p):hover{background:var(--midnight)!important;color:var(--jade)!important}
+.hero :focus-visible,.category-section :focus-visible,.pv :focus-visible{outline-color:var(--midnight)}
+.mp .wrap>div{border-top:3px solid var(--jade);padding-top:16px}
+
+/* AYMELEK management workspace */
+body[data-page=admin]{background:transparent!important}
+.admin-shell{display:grid;grid-template-columns:208px minmax(0,1fr);align-items:start;min-height:100dvh}
+.admin-shell .ah{position:sticky;top:0;min-height:100dvh;padding:20px 14px;display:flex;flex-direction:column;align-items:stretch;gap:8px;background:rgba(23,31,68,.83);border-right:1px solid var(--ln)}
+.admin-brand{display:flex;align-items:center;gap:10px;padding:0 7px 18px}
+.admin-brand strong{font-family:var(--serif);font-size:18px}
+.admin-shell .ah button,.admin-shell .ah a{text-align:left;border:0;border-radius:9px;padding:11px 12px;letter-spacing:normal}
+.admin-shell .ah .on{background:var(--jade);color:var(--midnight);font-weight:700}
+.admin-shell .ah a{margin-top:12px;color:var(--jade)}
+.admin-shell .ac{width:100%;max-width:1540px;padding:26px 24px 60px}
+.admin-shell .ac .card,.admin-shell .kp div{border-radius:14px;background:rgba(32,43,83,.79);overflow-wrap:anywhere}
+.admin-shell .ac .card.admin-catalog{background:rgba(254,129,209,.76);color:var(--midnight);border-color:rgba(254,129,209,.8)}
+.admin-catalog h1{margin:0;color:var(--midnight);font-size:clamp(24px,3vw,40px)}
+.admin-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.admin-tools{display:flex;gap:8px;flex-wrap:wrap}
+.admin-tools #sq,.admin-tools #admin-cat{background:var(--midnight);color:var(--ink);border:1px solid var(--midnight);border-radius:8px;padding:9px 10px;min-width:0}
+.admin-tools #sq::placeholder{color:var(--mut)}
+.admin-catalog .ab.pr{background:var(--midnight);color:var(--pink);border-color:var(--midnight);border-radius:8px}
+.admin-content{display:grid;grid-template-columns:minmax(0,1fr) minmax(190px,236px);gap:16px;align-items:start}
+.admin-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(154px,1fr));gap:12px}
+.admin-product{min-width:0;display:flex;flex-direction:column;gap:7px;padding:9px;border-radius:12px;background:rgba(23,31,68,.92);color:var(--ink)}
+.admin-product[hidden]{display:none}
+.admin-product img{width:100%;height:138px;object-fit:cover;border-radius:7px;background:#efeaf0}
+.admin-product h2{font:600 15px/1.35 var(--sans);margin:0}
+.admin-product small,.admin-product s{color:var(--mut)}
+.admin-product .stock{color:var(--jade)}
+.admin-product .stock.low{color:#ffb6b0}
+.admin-actions{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto}
+.admin-actions .ab{margin:0;padding:6px 8px;border-radius:7px}
+.admin-summary{position:sticky;top:18px;border-radius:12px;padding:16px;background:rgba(116,255,237,.83);color:var(--midnight)}
+.admin-summary h2{font-size:18px;color:var(--midnight);margin:0 0 8px}
+.admin-summary dl{margin:0}
+.admin-summary dl div{display:flex;justify-content:space-between;gap:6px;padding:8px 0;border-bottom:1px solid rgba(23,31,68,.22)}
+.admin-summary dd{margin:0;font-weight:700}
+@media(max-width:1100px){.admin-content{grid-template-columns:1fr}.admin-summary{position:static;grid-row:1}.admin-summary dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}}
+@media(max-width:700px){.admin-shell{display:block}.admin-shell .ah{min-height:auto;position:static;display:flex;flex-direction:row;flex-wrap:wrap;gap:4px;padding:10px}.admin-brand{width:100%;padding:0 4px 4px}.admin-shell .ah a{margin-top:0}.admin-shell .ah button,.admin-shell .ah a{padding:8px}.admin-shell .ac{padding:12px 10px 36px}.admin-shell .ac .card{padding:12px}.admin-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.admin-tools{width:100%}.admin-tools #sq,.admin-tools #admin-cat{flex:1 1 120px}.admin-product img{height:112px}}
+
+/* Storefront backdrop inspired by the gradient in the reference. */
+html:has(body:not([data-page=admin])){background:linear-gradient(180deg,#171F44 0%,#172747 28%,#12445B 68%,#278F8B 100%) fixed}
+body:not([data-page=admin]) .ann{background:#171F44;color:#FE81D1;border-bottom:1px solid rgba(116,255,237,.23)}
+body:not([data-page=admin]) .hero .txt{background:transparent!important;color:var(--ink)}
+body:not([data-page=admin]) .hero h1,body:not([data-page=admin]) .hero .sub,body:not([data-page=admin]) .hero .perks{color:var(--ink)}
+body:not([data-page=admin]) .hero h1 em{color:var(--pink)}
+body:not([data-page=admin]) .hero .eyebrow,body:not([data-page=admin]) .hero .perks span::before{color:var(--jade)}
+body:not([data-page=admin]) .hero .btn.p{background:var(--pink)!important;color:var(--midnight)!important;border-color:var(--pink)!important}
+body:not([data-page=admin]) .hero .btn.o:not(.wa):not(.p){color:var(--jade)!important;border-color:var(--jade)!important}
+body:not([data-page=admin]) .hero .btn.o:not(.wa):not(.p):hover{color:var(--midnight)!important}
+body:not([data-page=admin]) section.category-section.s,body:not([data-page=admin]) section.pv.s{background:rgba(23,31,68,.46);color:var(--ink)}
+body:not([data-page=admin]) .category-section .sh h2,body:not([data-page=admin]) .category-section .sh p,body:not([data-page=admin]) .pv h2,body:not([data-page=admin]) .pv p,body:not([data-page=admin]) .pv .bottle-card{color:var(--ink)}
+body:not([data-page=admin]) .category-section .cc,body:not([data-page=admin]) .pv .bottle-card[aria-pressed=true]{border-color:rgba(116,255,237,.55)}
+body:not([data-page=admin]) .pv #bvnxt.btn:not(.wa):not(.p){color:var(--jade)!important;border-color:var(--jade)!important}
+body:not([data-page=admin]) .hero :focus-visible,body:not([data-page=admin]) .category-section :focus-visible,body:not([data-page=admin]) .pv :focus-visible{outline-color:var(--jade)}
+
+/* Translucent black storefront palette */
+html:has(body:not([data-page=admin])) {
+  background: radial-gradient(ellipse at 76% 22%, rgba(103, 86, 150, .16), transparent 58%),
+              radial-gradient(ellipse at 14% 50%, rgba(65, 84, 135, .12), transparent 62%),
+              linear-gradient(160deg, #08090c, #0d0d13 48%, #14121a);
+}
+body:not([data-page=admin]) {
+  --midnight: #111117;
+  --pink: #ecd0e7;
+  --jade: #dad3ff;
+  --ink: #fff5e8;
+  --mut: #e0dcef;
+  --pnl: #191820;
+  --ln: rgba(218, 211, 255, .30);
+}
+body:not([data-page=admin]) :is(.ann, .hdr, .msb, footer) {
+  background: rgba(0, 0, 0, .34);
+}
+body:not([data-page=admin]) .ann {
+  color: var(--pink);
+  border-bottom-color: var(--ln);
+}
+body:not([data-page=admin]) .hero .txt {
+  background: linear-gradient(90deg, rgba(0, 0, 0, .20), transparent) !important;
+}
+body:not([data-page=admin]) section.category-section.s,
+body:not([data-page=admin]) section.pv.s {
+  background: rgba(0, 0, 0, .12);
+}
+body:not([data-page=admin]) .category-section .cc,
+body:not([data-page=admin]) .pv .bottle-card[aria-pressed=true] {
+  border-color: var(--ln);
+}
